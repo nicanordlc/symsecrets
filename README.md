@@ -15,9 +15,11 @@ Encrypt files with your GPG key and version control them.
 
 This will initialize `symsecrets` on `~/projects/secrets`.
 
-Provide your `GIT_USERNAME` and `GIT_REPO` after forked.
+Provide your `GIT_USERNAME` and `GIT_REPO` after forked. Don't forget to setup your gpg key
+and after that provide the `GPG_ID` variable to the script.
 
 ```bash
+GPG_ID="" \
 GIT_USERNAME="" \
 GIT_REPO="" \
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/nicanordlc/symsecrets/refs/heads/main/src/install-remote.sh)"
