@@ -10,6 +10,9 @@ Encrypt files with your GPG key and version control them.
 
 ## Bootstrap
 
+> [!NOTE]
+> Once initialized place all your secrets under `dots` as plain text (this is not tracked).
+
 This will initialize `symsecrets` on `~/projects/secrets`.
 
 Provide your `GIT_USERNAME` and `GIT_REPO` after forked.
